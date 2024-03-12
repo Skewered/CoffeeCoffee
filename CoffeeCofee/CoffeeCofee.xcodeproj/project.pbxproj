@@ -1,0 +1,1091 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631112402A8CB6CF00063B77 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 6311123F2A8CB6CF00063B77 /* RxCocoa */; };
+		631112422A8CB6CF00063B77 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 631112412A8CB6CF00063B77 /* RxSwift */; };
+		631112452A8CB87E00063B77 /* RxGesture in Frameworks */ = {isa = PBXBuildFile; productRef = 631112442A8CB87E00063B77 /* RxGesture */; };
+		632569EA2B1F15F200E1530E /* PaymentInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632569E92B1F15F200E1530E /* PaymentInfoData.swift */; };
+		632569EC2B1F26F700E1530E /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632569EB2B1F26F700E1530E /* PaymentModel.swift */; };
+		6363F86A2B809A1B00C3CB53 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6363F8692B809A1B00C3CB53 /* SnapKit */; };
+		6363F86C2B80B4E700C3CB53 /* MembershipStampCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363F86B2B80B4E700C3CB53 /* MembershipStampCell.swift */; };
+		6363F86E2B80B61A00C3CB53 /* MembershipStampProfitSelectedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363F86D2B80B61A00C3CB53 /* MembershipStampProfitSelectedPickerView.swift */; };
+		6363F8702B81E8BC00C3CB53 /* MembershipCouponDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363F86F2B81E8BC00C3CB53 /* MembershipCouponDetailView.swift */; };
+		6363F8722B83449500C3CB53 /* OrderMapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363F8712B83449500C3CB53 /* OrderMapCoordinator.swift */; };
+		637699F72B5E32DB001235DF /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 637699F62B5E32DB001235DF /* GoogleMaps */; };
+		637699F92B5E32DB001235DF /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 637699F82B5E32DB001235DF /* GoogleMapsBase */; };
+		637699FB2B5E32DB001235DF /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 637699FA2B5E32DB001235DF /* GoogleMapsCore */; };
+		637699FD2B5E32DB001235DF /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = 637699FC2B5E32DB001235DF /* GoogleMapsM4B */; };
+		63769A002B6390DA001235DF /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 637699FF2B6390DA001235DF /* GooglePlaces */; };
+		63769A022B63A0AF001235DF /* PlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63769A012B63A0AF001235DF /* PlaceData.swift */; };
+		63769A042B6A4DDD001235DF /* OrderMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63769A032B6A4DDC001235DF /* OrderMapView.swift */; };
+		63A58CB62AA34C7500AD5144 /* OrderMenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A58CB52AA34C7500AD5144 /* OrderMenuDetailView.swift */; };
+		63A58CB82AA4932A00AD5144 /* OrderMenuDetailOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A58CB72AA4932A00AD5144 /* OrderMenuDetailOptionView.swift */; };
+		63A58CBA2AA5EAAA00AD5144 /* OrderMenuDetailRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A58CB92AA5EAAA00AD5144 /* OrderMenuDetailRadio.swift */; };
+		63A58CBE2AA9C26D00AD5144 /* OrderCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A58CBD2AA9C26D00AD5144 /* OrderCartView.swift */; };
+		63A58CC02AAB09C600AD5144 /* CartItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A58CBF2AAB09C600AD5144 /* CartItemData.swift */; };
+		63A58CC22AAB0FDF00AD5144 /* OrderCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A58CC12AAB0FDF00AD5144 /* OrderCartViewModel.swift */; };
+		63A58CC42AAB14F000AD5144 /* OrderCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A58CC32AAB14F000AD5144 /* OrderCartCell.swift */; };
+		63AC50D22AE6555F005F80E9 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC50D12AE6555F005F80E9 /* OtherView.swift */; };
+		63BA1ABF2B401D2300271386 /* HomeUserRecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA1ABE2B401D2300271386 /* HomeUserRecommendView.swift */; };
+		63BA1AC12B415C0900271386 /* HomeUserPopupOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA1AC02B415C0900271386 /* HomeUserPopupOverlay.swift */; };
+		63BA1AC52B53E0C800271386 /* CartDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA1AC42B53E0C800271386 /* CartDetailCell.swift */; };
+		63C020A12A88B54D006FEABB /* CoffeeCofeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020A02A88B54D006FEABB /* CoffeeCofeeApp.swift */; };
+		63C020A32A88B54D006FEABB /* NavigationTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020A22A88B54D006FEABB /* NavigationTempView.swift */; };
+		63C020A52A88B54E006FEABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C020A42A88B54E006FEABB /* Assets.xcassets */; };
+		63C020A82A88B54E006FEABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C020A72A88B54E006FEABB /* Preview Assets.xcassets */; };
+		63C020AF2A88B786006FEABB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020AE2A88B786006FEABB /* MainTabView.swift */; };
+		63C020B12A88B7A8006FEABB /* MainTabList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020B02A88B7A8006FEABB /* MainTabList.swift */; };
+		63C020B42A89E687006FEABB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020B32A89E687006FEABB /* HomeView.swift */; };
+		63C020B72A89E77E006FEABB /* HomeEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020B62A89E77E006FEABB /* HomeEventView.swift */; };
+		63C020BA2A89EA1A006FEABB /* HomeUserBarcodePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020B92A89EA1A006FEABB /* HomeUserBarcodePopup.swift */; };
+		63C020BC2A89EA33006FEABB /* HomeUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020BB2A89EA33006FEABB /* HomeUserNameView.swift */; };
+		63C020BE2A89EA4B006FEABB /* HomeUserCouponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020BD2A89EA4B006FEABB /* HomeUserCouponView.swift */; };
+		63C020C02A89EF3C006FEABB /* HomeUserNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020BF2A89EF3C006FEABB /* HomeUserNoticeView.swift */; };
+		63C020C32A89EF62006FEABB /* HomeUserNoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020C22A89EF62006FEABB /* HomeUserNoticeCell.swift */; };
+		63C020C82A89F181006FEABB /* EventSectionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020C72A89F181006FEABB /* EventSectionItemView.swift */; };
+		63C020CA2A89F1A5006FEABB /* HomeUserMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020C92A89F1A5006FEABB /* HomeUserMenuView.swift */; };
+		63C020CD2A89F1D2006FEABB /* HomeUserMenuPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020CC2A89F1D2006FEABB /* HomeUserMenuPopup.swift */; };
+		63C020D02A89F209006FEABB /* HomeUserNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020CF2A89F209006FEABB /* HomeUserNewsView.swift */; };
+		63C020D22A89F222006FEABB /* HomeUserNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020D12A89F222006FEABB /* HomeUserNewsCell.swift */; };
+		63C020D72A89F417006FEABB /* CrawlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020D62A89F417006FEABB /* CrawlModel.swift */; };
+		63C020D92A89F42E006FEABB /* HomeUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020D82A89F42E006FEABB /* HomeUserViewModel.swift */; };
+		63C020DB2A89F443006FEABB /* PrepaidCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020DA2A89F443006FEABB /* PrepaidCardView.swift */; };
+		63C020DE2A89F471006FEABB /* PrepaidCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020DD2A89F471006FEABB /* PrepaidCardListView.swift */; };
+		63C020E02A89F493006FEABB /* PrepaidPrecautionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020DF2A89F493006FEABB /* PrepaidPrecautionsView.swift */; };
+		63C020E22A89F4A9006FEABB /* PrepaidRefundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020E12A89F4A9006FEABB /* PrepaidRefundView.swift */; };
+		63C020E42A89F4DD006FEABB /* PrepaidNoticePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020E32A89F4DD006FEABB /* PrepaidNoticePopupView.swift */; };
+		63C020E62A89F4FD006FEABB /* PrepaidCardCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020E52A89F4FD006FEABB /* PrepaidCardCreateView.swift */; };
+		63C020E92A89F535006FEABB /* PrepaidCardCreateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020E82A89F535006FEABB /* PrepaidCardCreateDetailView.swift */; };
+		63C020EB2A89F559006FEABB /* PrepaidCardCreateRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020EA2A89F559006FEABB /* PrepaidCardCreateRadio.swift */; };
+		63C020ED2A89FC17006FEABB /* PrepaidCardChargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020EC2A89FC17006FEABB /* PrepaidCardChargeView.swift */; };
+		63C020EF2A89FC42006FEABB /* PrepaidCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020EE2A89FC42006FEABB /* PrepaidCardViewModel.swift */; };
+		63C020F12A89FC5C006FEABB /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C020F02A89FC5C006FEABB /* OrderView.swift */; };
+		63C0210F2A8A0065006FEABB /* UserLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0210E2A8A0065006FEABB /* UserLoginView.swift */; };
+		63C021132A8A0090006FEABB /* UserLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021122A8A0090006FEABB /* UserLoginModel.swift */; };
+		63C021152A8A00E5006FEABB /* MembershipStampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021142A8A00E5006FEABB /* MembershipStampView.swift */; };
+		63C021182A8A0120006FEABB /* MembershipStampGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021172A8A0120006FEABB /* MembershipStampGrid.swift */; };
+		63C0211A2A8A0140006FEABB /* MembershipStampProfitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021192A8A0140006FEABB /* MembershipStampProfitView.swift */; };
+		63C0211C2A8A0159006FEABB /* MembershipStampProfitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0211B2A8A0159006FEABB /* MembershipStampProfitCell.swift */; };
+		63C021232A8A01B3006FEABB /* MembershipCouponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021222A8A01B3006FEABB /* MembershipCouponView.swift */; };
+		63C021262A8A01DF006FEABB /* MembershipCouponCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021252A8A01DF006FEABB /* MembershipCouponCell.swift */; };
+		63C021282A8A0A2E006FEABB /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021272A8A0A2E006FEABB /* EventModel.swift */; };
+		63C0212B2A8A0A89006FEABB /* NoticeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0212A2A8A0A89006FEABB /* NoticeData.swift */; };
+		63C0212D2A8A0ACF006FEABB /* CoffeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0212C2A8A0ACF006FEABB /* CoffeeData.swift */; };
+		63C0212F2A8A0AF1006FEABB /* CouponData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0212E2A8A0AF1006FEABB /* CouponData.swift */; };
+		63C021312A8A0B0B006FEABB /* StampData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021302A8A0B0B006FEABB /* StampData.swift */; };
+		63C021332A8A0B1F006FEABB /* StampDetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021322A8A0B1F006FEABB /* StampDetailsData.swift */; };
+		63C021352A8A0B37006FEABB /* PrepaidCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021342A8A0B37006FEABB /* PrepaidCardData.swift */; };
+		63C021372A8A0CFC006FEABB /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021362A8A0CFC006FEABB /* ShopData.swift */; };
+		63C021392A8A0D0F006FEABB /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021382A8A0D0F006FEABB /* UserData.swift */; };
+		63C021482A8A1096006FEABB /* PrepaidCardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C021472A8A1096006FEABB /* PrepaidCardImage.swift */; };
+		63C0214B2A8A1160006FEABB /* PrepaidCardBirdImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0214A2A8A1160006FEABB /* PrepaidCardBirdImage.swift */; };
+		63C0214D2A8A1176006FEABB /* PrepaidCardPatternImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0214C2A8A1176006FEABB /* PrepaidCardPatternImage.swift */; };
+		63C0214F2A8A119B006FEABB /* PrepaidCardFlowerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0214E2A8A119B006FEABB /* PrepaidCardFlowerImage.swift */; };
+		63C021552A8A1DB9006FEABB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 63C021542A8A1DB9006FEABB /* FirebaseAnalytics */; };
+		63C021572A8A1DB9006FEABB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 63C021562A8A1DB9006FEABB /* FirebaseAuth */; };
+		63C021592A8A1DB9006FEABB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 63C021582A8A1DB9006FEABB /* FirebaseDatabase */; };
+		63C021612A8A1F76006FEABB /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 63C021602A8A1F76006FEABB /* SwiftSoup */; };
+		63C021642A8A1FA4006FEABB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 63C021632A8A1FA4006FEABB /* Alamofire */; };
+		63C021AB2A8A22D7006FEABB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C021AA2A8A22D7006FEABB /* OpenGLES.framework */; };
+		63C021AD2A8A22E3006FEABB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C021AC2A8A22E3006FEABB /* SystemConfiguration.framework */; };
+		63C021AF2A8A22EC006FEABB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C021AE2A8A22EC006FEABB /* CoreLocation.framework */; };
+		63C021B12A8A22F3006FEABB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C021B02A8A22F3006FEABB /* QuartzCore.framework */; };
+		63C021B32A8A22FD006FEABB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C021B22A8A22FD006FEABB /* libc++.tbd */; };
+		63C021B52A8A2307006FEABB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C021B42A8A2307006FEABB /* libxml2.tbd */; };
+		63C021B72A8A2311006FEABB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C021B62A8A2311006FEABB /* libsqlite3.tbd */; };
+		63D49D8E2A9490680066DACE /* MembershipCouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D49D8D2A9490680066DACE /* MembershipCouponModel.swift */; };
+		63D49D902A973ED30066DACE /* OrderMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D49D8F2A973ED30066DACE /* OrderMenuView.swift */; };
+		63D49D922A99F2440066DACE /* OrderMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D49D912A99F2440066DACE /* OrderMenuCell.swift */; };
+		63DB31A82AF8F4B400468E39 /* CartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31A72AF8F4B400468E39 /* CartDetailView.swift */; };
+		63DB31AC2B0762AF00468E39 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31AB2B0762AF00468E39 /* PaymentView.swift */; };
+		63DB31AE2B08B18300468E39 /* PaymentItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31AD2B08B18300468E39 /* PaymentItemList.swift */; };
+		63DB31B02B08C3B000468E39 /* PaymentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31AF2B08C3B000468E39 /* PaymentItem.swift */; };
+		63DB31B22B08C65B00468E39 /* PaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31B12B08C65B00468E39 /* PaymentRequest.swift */; };
+		63DB31B42B0A0E4800468E39 /* PaymentItemListRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31B32B0A0E4800468E39 /* PaymentItemListRadio.swift */; };
+		63DB31B62B0B4A9300468E39 /* PaymentCoupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31B52B0B4A9300468E39 /* PaymentCoupon.swift */; };
+		63DB31B82B0B4B9900468E39 /* PaymentCouponList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31B72B0B4B9900468E39 /* PaymentCouponList.swift */; };
+		63DB31BC2B0B682400468E39 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31BB2B0B682400468E39 /* PaymentMethod.swift */; };
+		63DB31BE2B0B72B900468E39 /* PaymentCashreceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31BD2B0B72B900468E39 /* PaymentCashreceipt.swift */; };
+		63DB31C02B0CA95600468E39 /* PaymentAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB31BF2B0CA95600468E39 /* PaymentAmount.swift */; };
+		63E1A6CA2A8F4E280055C3B4 /* MembershipStampModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1A6C92A8F4E280055C3B4 /* MembershipStampModel.swift */; };
+		63E5DE8F2B7F4E100062CDA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C021502A8A1BD7006FEABB /* GoogleService-Info.plist */; };
+		63E5DE902B7F51790062CDA7 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 63ED8D672B7B70FA00E2A60E /* Config.xcconfig */; };
+		63ED8D6B2B7DF30E00E2A60E /* OrderMenuSelectedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED8D6A2B7DF30E00E2A60E /* OrderMenuSelectedPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		632569E92B1F15F200E1530E /* PaymentInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoData.swift; sourceTree = "<group>"; };
+		632569EB2B1F26F700E1530E /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		6363F86B2B80B4E700C3CB53 /* MembershipStampCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipStampCell.swift; sourceTree = "<group>"; };
+		6363F86D2B80B61A00C3CB53 /* MembershipStampProfitSelectedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipStampProfitSelectedPickerView.swift; sourceTree = "<group>"; };
+		6363F86F2B81E8BC00C3CB53 /* MembershipCouponDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipCouponDetailView.swift; sourceTree = "<group>"; };
+		6363F8712B83449500C3CB53 /* OrderMapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMapCoordinator.swift; sourceTree = "<group>"; };
+		63769A012B63A0AF001235DF /* PlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceData.swift; sourceTree = "<group>"; };
+		63769A032B6A4DDC001235DF /* OrderMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMapView.swift; sourceTree = "<group>"; };
+		63A58CB52AA34C7500AD5144 /* OrderMenuDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMenuDetailView.swift; sourceTree = "<group>"; };
+		63A58CB72AA4932A00AD5144 /* OrderMenuDetailOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMenuDetailOptionView.swift; sourceTree = "<group>"; };
+		63A58CB92AA5EAAA00AD5144 /* OrderMenuDetailRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMenuDetailRadio.swift; sourceTree = "<group>"; };
+		63A58CBD2AA9C26D00AD5144 /* OrderCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCartView.swift; sourceTree = "<group>"; };
+		63A58CBF2AAB09C600AD5144 /* CartItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemData.swift; sourceTree = "<group>"; };
+		63A58CC12AAB0FDF00AD5144 /* OrderCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCartViewModel.swift; sourceTree = "<group>"; };
+		63A58CC32AAB14F000AD5144 /* OrderCartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCartCell.swift; sourceTree = "<group>"; };
+		63AC50D12AE6555F005F80E9 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		63BA1ABE2B401D2300271386 /* HomeUserRecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserRecommendView.swift; sourceTree = "<group>"; };
+		63BA1AC02B415C0900271386 /* HomeUserPopupOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserPopupOverlay.swift; sourceTree = "<group>"; };
+		63BA1AC42B53E0C800271386 /* CartDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDetailCell.swift; sourceTree = "<group>"; };
+		63C0209D2A88B54D006FEABB /* CoffeeCofee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeCofee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C020A02A88B54D006FEABB /* CoffeeCofeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCofeeApp.swift; sourceTree = "<group>"; };
+		63C020A22A88B54D006FEABB /* NavigationTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTempView.swift; sourceTree = "<group>"; };
+		63C020A42A88B54E006FEABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C020A72A88B54E006FEABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63C020AE2A88B786006FEABB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		63C020B02A88B7A8006FEABB /* MainTabList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabList.swift; sourceTree = "<group>"; };
+		63C020B32A89E687006FEABB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		63C020B62A89E77E006FEABB /* HomeEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEventView.swift; sourceTree = "<group>"; };
+		63C020B92A89EA1A006FEABB /* HomeUserBarcodePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserBarcodePopup.swift; sourceTree = "<group>"; };
+		63C020BB2A89EA33006FEABB /* HomeUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserNameView.swift; sourceTree = "<group>"; };
+		63C020BD2A89EA4B006FEABB /* HomeUserCouponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserCouponView.swift; sourceTree = "<group>"; };
+		63C020BF2A89EF3C006FEABB /* HomeUserNoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserNoticeView.swift; sourceTree = "<group>"; };
+		63C020C22A89EF62006FEABB /* HomeUserNoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserNoticeCell.swift; sourceTree = "<group>"; };
+		63C020C72A89F181006FEABB /* EventSectionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSectionItemView.swift; sourceTree = "<group>"; };
+		63C020C92A89F1A5006FEABB /* HomeUserMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserMenuView.swift; sourceTree = "<group>"; };
+		63C020CC2A89F1D2006FEABB /* HomeUserMenuPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserMenuPopup.swift; sourceTree = "<group>"; };
+		63C020CF2A89F209006FEABB /* HomeUserNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserNewsView.swift; sourceTree = "<group>"; };
+		63C020D12A89F222006FEABB /* HomeUserNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserNewsCell.swift; sourceTree = "<group>"; };
+		63C020D62A89F417006FEABB /* CrawlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawlModel.swift; sourceTree = "<group>"; };
+		63C020D82A89F42E006FEABB /* HomeUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserViewModel.swift; sourceTree = "<group>"; };
+		63C020DA2A89F443006FEABB /* PrepaidCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardView.swift; sourceTree = "<group>"; };
+		63C020DD2A89F471006FEABB /* PrepaidCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardListView.swift; sourceTree = "<group>"; };
+		63C020DF2A89F493006FEABB /* PrepaidPrecautionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidPrecautionsView.swift; sourceTree = "<group>"; };
+		63C020E12A89F4A9006FEABB /* PrepaidRefundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidRefundView.swift; sourceTree = "<group>"; };
+		63C020E32A89F4DD006FEABB /* PrepaidNoticePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidNoticePopupView.swift; sourceTree = "<group>"; };
+		63C020E52A89F4FD006FEABB /* PrepaidCardCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardCreateView.swift; sourceTree = "<group>"; };
+		63C020E82A89F535006FEABB /* PrepaidCardCreateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardCreateDetailView.swift; sourceTree = "<group>"; };
+		63C020EA2A89F559006FEABB /* PrepaidCardCreateRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardCreateRadio.swift; sourceTree = "<group>"; };
+		63C020EC2A89FC17006FEABB /* PrepaidCardChargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardChargeView.swift; sourceTree = "<group>"; };
+		63C020EE2A89FC42006FEABB /* PrepaidCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardViewModel.swift; sourceTree = "<group>"; };
+		63C020F02A89FC5C006FEABB /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		63C0210E2A8A0065006FEABB /* UserLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginView.swift; sourceTree = "<group>"; };
+		63C021122A8A0090006FEABB /* UserLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginModel.swift; sourceTree = "<group>"; };
+		63C021142A8A00E5006FEABB /* MembershipStampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipStampView.swift; sourceTree = "<group>"; };
+		63C021172A8A0120006FEABB /* MembershipStampGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipStampGrid.swift; sourceTree = "<group>"; };
+		63C021192A8A0140006FEABB /* MembershipStampProfitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipStampProfitView.swift; sourceTree = "<group>"; };
+		63C0211B2A8A0159006FEABB /* MembershipStampProfitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipStampProfitCell.swift; sourceTree = "<group>"; };
+		63C021222A8A01B3006FEABB /* MembershipCouponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipCouponView.swift; sourceTree = "<group>"; };
+		63C021252A8A01DF006FEABB /* MembershipCouponCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipCouponCell.swift; sourceTree = "<group>"; };
+		63C021272A8A0A2E006FEABB /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		63C0212A2A8A0A89006FEABB /* NoticeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeData.swift; sourceTree = "<group>"; };
+		63C0212C2A8A0ACF006FEABB /* CoffeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeData.swift; sourceTree = "<group>"; };
+		63C0212E2A8A0AF1006FEABB /* CouponData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponData.swift; sourceTree = "<group>"; };
+		63C021302A8A0B0B006FEABB /* StampData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampData.swift; sourceTree = "<group>"; };
+		63C021322A8A0B1F006FEABB /* StampDetailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampDetailsData.swift; sourceTree = "<group>"; };
+		63C021342A8A0B37006FEABB /* PrepaidCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardData.swift; sourceTree = "<group>"; };
+		63C021362A8A0CFC006FEABB /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
+		63C021382A8A0D0F006FEABB /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		63C021472A8A1096006FEABB /* PrepaidCardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardImage.swift; sourceTree = "<group>"; };
+		63C0214A2A8A1160006FEABB /* PrepaidCardBirdImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardBirdImage.swift; sourceTree = "<group>"; };
+		63C0214C2A8A1176006FEABB /* PrepaidCardPatternImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardPatternImage.swift; sourceTree = "<group>"; };
+		63C0214E2A8A119B006FEABB /* PrepaidCardFlowerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepaidCardFlowerImage.swift; sourceTree = "<group>"; };
+		63C021502A8A1BD7006FEABB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		63C021AA2A8A22D7006FEABB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		63C021AC2A8A22E3006FEABB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		63C021AE2A8A22EC006FEABB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63C021B02A8A22F3006FEABB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63C021B22A8A22FD006FEABB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		63C021B42A8A2307006FEABB /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		63C021B62A8A2311006FEABB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		63D49D8D2A9490680066DACE /* MembershipCouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipCouponModel.swift; sourceTree = "<group>"; };
+		63D49D8F2A973ED30066DACE /* OrderMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMenuView.swift; sourceTree = "<group>"; };
+		63D49D912A99F2440066DACE /* OrderMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMenuCell.swift; sourceTree = "<group>"; };
+		63DB31A72AF8F4B400468E39 /* CartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDetailView.swift; sourceTree = "<group>"; };
+		63DB31AB2B0762AF00468E39 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		63DB31AD2B08B18300468E39 /* PaymentItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentItemList.swift; sourceTree = "<group>"; };
+		63DB31AF2B08C3B000468E39 /* PaymentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentItem.swift; sourceTree = "<group>"; };
+		63DB31B12B08C65B00468E39 /* PaymentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRequest.swift; sourceTree = "<group>"; };
+		63DB31B32B0A0E4800468E39 /* PaymentItemListRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentItemListRadio.swift; sourceTree = "<group>"; };
+		63DB31B52B0B4A9300468E39 /* PaymentCoupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCoupon.swift; sourceTree = "<group>"; };
+		63DB31B72B0B4B9900468E39 /* PaymentCouponList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCouponList.swift; sourceTree = "<group>"; };
+		63DB31BB2B0B682400468E39 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		63DB31BD2B0B72B900468E39 /* PaymentCashreceipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCashreceipt.swift; sourceTree = "<group>"; };
+		63DB31BF2B0CA95600468E39 /* PaymentAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAmount.swift; sourceTree = "<group>"; };
+		63E1A6C92A8F4E280055C3B4 /* MembershipStampModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipStampModel.swift; sourceTree = "<group>"; };
+		63E5DE922B7F56120062CDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63ED8D672B7B70FA00E2A60E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		63ED8D6A2B7DF30E00E2A60E /* OrderMenuSelectedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMenuSelectedPickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C0209A2A88B54D006FEABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C021B72A8A2311006FEABB /* libsqlite3.tbd in Frameworks */,
+				63C021B52A8A2307006FEABB /* libxml2.tbd in Frameworks */,
+				63C021B32A8A22FD006FEABB /* libc++.tbd in Frameworks */,
+				6363F86A2B809A1B00C3CB53 /* SnapKit in Frameworks */,
+				63C021B12A8A22F3006FEABB /* QuartzCore.framework in Frameworks */,
+				637699FB2B5E32DB001235DF /* GoogleMapsCore in Frameworks */,
+				63C021AF2A8A22EC006FEABB /* CoreLocation.framework in Frameworks */,
+				63C021AD2A8A22E3006FEABB /* SystemConfiguration.framework in Frameworks */,
+				63C021AB2A8A22D7006FEABB /* OpenGLES.framework in Frameworks */,
+				631112452A8CB87E00063B77 /* RxGesture in Frameworks */,
+				63C021592A8A1DB9006FEABB /* FirebaseDatabase in Frameworks */,
+				63C021642A8A1FA4006FEABB /* Alamofire in Frameworks */,
+				63C021552A8A1DB9006FEABB /* FirebaseAnalytics in Frameworks */,
+				631112402A8CB6CF00063B77 /* RxCocoa in Frameworks */,
+				637699FD2B5E32DB001235DF /* GoogleMapsM4B in Frameworks */,
+				637699F72B5E32DB001235DF /* GoogleMaps in Frameworks */,
+				637699F92B5E32DB001235DF /* GoogleMapsBase in Frameworks */,
+				63C021572A8A1DB9006FEABB /* FirebaseAuth in Frameworks */,
+				631112422A8CB6CF00063B77 /* RxSwift in Frameworks */,
+				63C021612A8A1F76006FEABB /* SwiftSoup in Frameworks */,
+				63769A002B6390DA001235DF /* GooglePlaces in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63C020942A88B54D006FEABB = {
+			isa = PBXGroup;
+			children = (
+				63C021522A8A1C07006FEABB /* ProjectSetup */,
+				63C0209F2A88B54D006FEABB /* CoffeeCofee */,
+				63C0209E2A88B54D006FEABB /* Products */,
+				63C021A92A8A22D7006FEABB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63C0209E2A88B54D006FEABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C0209D2A88B54D006FEABB /* CoffeeCofee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C0209F2A88B54D006FEABB /* CoffeeCofee */ = {
+			isa = PBXGroup;
+			children = (
+				63C020A02A88B54D006FEABB /* CoffeeCofeeApp.swift */,
+				63C020A22A88B54D006FEABB /* NavigationTempView.swift */,
+				63C020B52A89E690006FEABB /* TabMenu */,
+				63C021292A8A0A62006FEABB /* Model */,
+				63C020B22A88B7B2006FEABB /* Tab */,
+				63C020A42A88B54E006FEABB /* Assets.xcassets */,
+				63C020A62A88B54E006FEABB /* Preview Content */,
+			);
+			path = CoffeeCofee;
+			sourceTree = "<group>";
+		};
+		63C020A62A88B54E006FEABB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63C020A72A88B54E006FEABB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63C020B22A88B7B2006FEABB /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				63C020AE2A88B786006FEABB /* MainTabView.swift */,
+				63C020B02A88B7A8006FEABB /* MainTabList.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		63C020B52A89E690006FEABB /* TabMenu */ = {
+			isa = PBXGroup;
+			children = (
+				63C020CE2A89F1EA006FEABB /* Home */,
+				63C020DC2A89F447006FEABB /* PrepaidCard */,
+				63C020F22A89FC61006FEABB /* Order */,
+				63C021102A8A007B006FEABB /* Other */,
+			);
+			path = TabMenu;
+			sourceTree = "<group>";
+		};
+		63C020B82A89E78A006FEABB /* HomeUserNameCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				63C020B62A89E77E006FEABB /* HomeEventView.swift */,
+				63C020B92A89EA1A006FEABB /* HomeUserBarcodePopup.swift */,
+				63C020BB2A89EA33006FEABB /* HomeUserNameView.swift */,
+				63C020BD2A89EA4B006FEABB /* HomeUserCouponView.swift */,
+				63C020C12A89EF3F006FEABB /* HomeUserNotice */,
+			);
+			path = HomeUserNameCoupon;
+			sourceTree = "<group>";
+		};
+		63C020C12A89EF3F006FEABB /* HomeUserNotice */ = {
+			isa = PBXGroup;
+			children = (
+				63C020BF2A89EF3C006FEABB /* HomeUserNoticeView.swift */,
+				63C020C22A89EF62006FEABB /* HomeUserNoticeCell.swift */,
+			);
+			path = HomeUserNotice;
+			sourceTree = "<group>";
+		};
+		63C020CB2A89F1B5006FEABB /* HomeUserMenu */ = {
+			isa = PBXGroup;
+			children = (
+				63BA1ABE2B401D2300271386 /* HomeUserRecommendView.swift */,
+				63C020C92A89F1A5006FEABB /* HomeUserMenuView.swift */,
+				63C020CC2A89F1D2006FEABB /* HomeUserMenuPopup.swift */,
+				63BA1AC02B415C0900271386 /* HomeUserPopupOverlay.swift */,
+			);
+			path = HomeUserMenu;
+			sourceTree = "<group>";
+		};
+		63C020CE2A89F1EA006FEABB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				63C020B32A89E687006FEABB /* HomeView.swift */,
+				63C020B82A89E78A006FEABB /* HomeUserNameCoupon */,
+				63C020CB2A89F1B5006FEABB /* HomeUserMenu */,
+				63C020D32A89F231006FEABB /* HomeUserNews */,
+				63C020D62A89F417006FEABB /* CrawlModel.swift */,
+				63C020D82A89F42E006FEABB /* HomeUserViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		63C020D32A89F231006FEABB /* HomeUserNews */ = {
+			isa = PBXGroup;
+			children = (
+				63C020CF2A89F209006FEABB /* HomeUserNewsView.swift */,
+				63C020C72A89F181006FEABB /* EventSectionItemView.swift */,
+				63C020D12A89F222006FEABB /* HomeUserNewsCell.swift */,
+			);
+			path = HomeUserNews;
+			sourceTree = "<group>";
+		};
+		63C020DC2A89F447006FEABB /* PrepaidCard */ = {
+			isa = PBXGroup;
+			children = (
+				63C020DA2A89F443006FEABB /* PrepaidCardView.swift */,
+				63C020DD2A89F471006FEABB /* PrepaidCardListView.swift */,
+				63C020DF2A89F493006FEABB /* PrepaidPrecautionsView.swift */,
+				63C020E12A89F4A9006FEABB /* PrepaidRefundView.swift */,
+				63C020E32A89F4DD006FEABB /* PrepaidNoticePopupView.swift */,
+				63C020E72A89F508006FEABB /* PrepaidCardCreate */,
+			);
+			path = PrepaidCard;
+			sourceTree = "<group>";
+		};
+		63C020E72A89F508006FEABB /* PrepaidCardCreate */ = {
+			isa = PBXGroup;
+			children = (
+				63C020E52A89F4FD006FEABB /* PrepaidCardCreateView.swift */,
+				63C020E82A89F535006FEABB /* PrepaidCardCreateDetailView.swift */,
+				63C020EA2A89F559006FEABB /* PrepaidCardCreateRadio.swift */,
+				63C020EC2A89FC17006FEABB /* PrepaidCardChargeView.swift */,
+				63C020EE2A89FC42006FEABB /* PrepaidCardViewModel.swift */,
+			);
+			path = PrepaidCardCreate;
+			sourceTree = "<group>";
+		};
+		63C020F22A89FC61006FEABB /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				63C020F02A89FC5C006FEABB /* OrderView.swift */,
+				63769A032B6A4DDC001235DF /* OrderMapView.swift */,
+				63D49D8F2A973ED30066DACE /* OrderMenuView.swift */,
+				63ED8D6A2B7DF30E00E2A60E /* OrderMenuSelectedPickerView.swift */,
+				63D49D912A99F2440066DACE /* OrderMenuCell.swift */,
+				63A58CB52AA34C7500AD5144 /* OrderMenuDetailView.swift */,
+				63A58CB72AA4932A00AD5144 /* OrderMenuDetailOptionView.swift */,
+				63A58CB92AA5EAAA00AD5144 /* OrderMenuDetailRadio.swift */,
+				63A58CBD2AA9C26D00AD5144 /* OrderCartView.swift */,
+				63A58CC32AAB14F000AD5144 /* OrderCartCell.swift */,
+				6363F8712B83449500C3CB53 /* OrderMapCoordinator.swift */,
+				63A58CC12AAB0FDF00AD5144 /* OrderCartViewModel.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		63C021102A8A007B006FEABB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				63AC50D12AE6555F005F80E9 /* OtherView.swift */,
+				63C021112A8A0082006FEABB /* Account */,
+				63C021162A8A00FD006FEABB /* Stamp */,
+				63C021242A8A01C1006FEABB /* Coupon */,
+				63DB31A92AF8F4B900468E39 /* Cart */,
+				63DB31AA2B07627500468E39 /* Payment */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		63C021112A8A0082006FEABB /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				63C0210E2A8A0065006FEABB /* UserLoginView.swift */,
+				63C021122A8A0090006FEABB /* UserLoginModel.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		63C021162A8A00FD006FEABB /* Stamp */ = {
+			isa = PBXGroup;
+			children = (
+				63C021142A8A00E5006FEABB /* MembershipStampView.swift */,
+				63C021172A8A0120006FEABB /* MembershipStampGrid.swift */,
+				6363F86B2B80B4E700C3CB53 /* MembershipStampCell.swift */,
+				63C021192A8A0140006FEABB /* MembershipStampProfitView.swift */,
+				6363F86D2B80B61A00C3CB53 /* MembershipStampProfitSelectedPickerView.swift */,
+				63C0211B2A8A0159006FEABB /* MembershipStampProfitCell.swift */,
+				63E1A6C92A8F4E280055C3B4 /* MembershipStampModel.swift */,
+			);
+			path = Stamp;
+			sourceTree = "<group>";
+		};
+		63C021242A8A01C1006FEABB /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				63C021222A8A01B3006FEABB /* MembershipCouponView.swift */,
+				6363F86F2B81E8BC00C3CB53 /* MembershipCouponDetailView.swift */,
+				63C021252A8A01DF006FEABB /* MembershipCouponCell.swift */,
+				63D49D8D2A9490680066DACE /* MembershipCouponModel.swift */,
+			);
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		63C021292A8A0A62006FEABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63C021272A8A0A2E006FEABB /* EventModel.swift */,
+				63C0212A2A8A0A89006FEABB /* NoticeData.swift */,
+				63C0212C2A8A0ACF006FEABB /* CoffeeData.swift */,
+				63C0212E2A8A0AF1006FEABB /* CouponData.swift */,
+				63C021302A8A0B0B006FEABB /* StampData.swift */,
+				63C021322A8A0B1F006FEABB /* StampDetailsData.swift */,
+				63C021342A8A0B37006FEABB /* PrepaidCardData.swift */,
+				63C021362A8A0CFC006FEABB /* ShopData.swift */,
+				63C021382A8A0D0F006FEABB /* UserData.swift */,
+				63A58CBF2AAB09C600AD5144 /* CartItemData.swift */,
+				632569E92B1F15F200E1530E /* PaymentInfoData.swift */,
+				63769A012B63A0AF001235DF /* PlaceData.swift */,
+				63C0213E2A8A0D54006FEABB /* Resource */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63C0213E2A8A0D54006FEABB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				63C021492A8A1099006FEABB /* PrepaidCardImage */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		63C021492A8A1099006FEABB /* PrepaidCardImage */ = {
+			isa = PBXGroup;
+			children = (
+				63C021472A8A1096006FEABB /* PrepaidCardImage.swift */,
+				63C0214A2A8A1160006FEABB /* PrepaidCardBirdImage.swift */,
+				63C0214C2A8A1176006FEABB /* PrepaidCardPatternImage.swift */,
+				63C0214E2A8A119B006FEABB /* PrepaidCardFlowerImage.swift */,
+			);
+			path = PrepaidCardImage;
+			sourceTree = "<group>";
+		};
+		63C021522A8A1C07006FEABB /* ProjectSetup */ = {
+			isa = PBXGroup;
+			children = (
+				63E5DE922B7F56120062CDA7 /* Info.plist */,
+				63C021502A8A1BD7006FEABB /* GoogleService-Info.plist */,
+				63ED8D672B7B70FA00E2A60E /* Config.xcconfig */,
+			);
+			path = ProjectSetup;
+			sourceTree = "<group>";
+		};
+		63C021A92A8A22D7006FEABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C021B62A8A2311006FEABB /* libsqlite3.tbd */,
+				63C021B42A8A2307006FEABB /* libxml2.tbd */,
+				63C021B22A8A22FD006FEABB /* libc++.tbd */,
+				63C021B02A8A22F3006FEABB /* QuartzCore.framework */,
+				63C021AE2A8A22EC006FEABB /* CoreLocation.framework */,
+				63C021AC2A8A22E3006FEABB /* SystemConfiguration.framework */,
+				63C021AA2A8A22D7006FEABB /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63DB31A92AF8F4B900468E39 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				63DB31A72AF8F4B400468E39 /* CartDetailView.swift */,
+				63BA1AC42B53E0C800271386 /* CartDetailCell.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		63DB31AA2B07627500468E39 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				63DB31AB2B0762AF00468E39 /* PaymentView.swift */,
+				63DB31AF2B08C3B000468E39 /* PaymentItem.swift */,
+				63DB31AD2B08B18300468E39 /* PaymentItemList.swift */,
+				63DB31B12B08C65B00468E39 /* PaymentRequest.swift */,
+				63DB31B32B0A0E4800468E39 /* PaymentItemListRadio.swift */,
+				63DB31B52B0B4A9300468E39 /* PaymentCoupon.swift */,
+				63DB31B72B0B4B9900468E39 /* PaymentCouponList.swift */,
+				63DB31BB2B0B682400468E39 /* PaymentMethod.swift */,
+				63DB31BD2B0B72B900468E39 /* PaymentCashreceipt.swift */,
+				63DB31BF2B0CA95600468E39 /* PaymentAmount.swift */,
+				632569EB2B1F26F700E1530E /* PaymentModel.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C0209C2A88B54D006FEABB /* CoffeeCofee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C020AB2A88B54E006FEABB /* Build configuration list for PBXNativeTarget "CoffeeCofee" */;
+			buildPhases = (
+				63C020992A88B54D006FEABB /* Sources */,
+				63C0209A2A88B54D006FEABB /* Frameworks */,
+				63C0209B2A88B54D006FEABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeCofee;
+			packageProductDependencies = (
+				63C021542A8A1DB9006FEABB /* FirebaseAnalytics */,
+				63C021562A8A1DB9006FEABB /* FirebaseAuth */,
+				63C021582A8A1DB9006FEABB /* FirebaseDatabase */,
+				63C021602A8A1F76006FEABB /* SwiftSoup */,
+				63C021632A8A1FA4006FEABB /* Alamofire */,
+				6311123F2A8CB6CF00063B77 /* RxCocoa */,
+				631112412A8CB6CF00063B77 /* RxSwift */,
+				631112442A8CB87E00063B77 /* RxGesture */,
+				637699F62B5E32DB001235DF /* GoogleMaps */,
+				637699F82B5E32DB001235DF /* GoogleMapsBase */,
+				637699FA2B5E32DB001235DF /* GoogleMapsCore */,
+				637699FC2B5E32DB001235DF /* GoogleMapsM4B */,
+				637699FF2B6390DA001235DF /* GooglePlaces */,
+				6363F8692B809A1B00C3CB53 /* SnapKit */,
+			);
+			productName = CoffeeCofee;
+			productReference = 63C0209D2A88B54D006FEABB /* CoffeeCofee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C020952A88B54D006FEABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					63C0209C2A88B54D006FEABB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 63C020982A88B54D006FEABB /* Build configuration list for PBXProject "CoffeeCofee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C020942A88B54D006FEABB;
+			packageReferences = (
+				63C021532A8A1DB9006FEABB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				63C0215F2A8A1F76006FEABB /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				63C021622A8A1FA4006FEABB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				63C021BA2A8A26C6006FEABB /* XCRemoteSwiftPackageReference "SnapKit" */,
+				6311123E2A8CB6CF00063B77 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				631112432A8CB87E00063B77 /* XCRemoteSwiftPackageReference "RxGesture" */,
+				637699F52B5E32DA001235DF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				637699FE2B6390DA001235DF /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			productRefGroup = 63C0209E2A88B54D006FEABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C0209C2A88B54D006FEABB /* CoffeeCofee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C0209B2A88B54D006FEABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E5DE902B7F51790062CDA7 /* Config.xcconfig in Resources */,
+				63E5DE8F2B7F4E100062CDA7 /* GoogleService-Info.plist in Resources */,
+				63C020A82A88B54E006FEABB /* Preview Assets.xcassets in Resources */,
+				63C020A52A88B54E006FEABB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C020992A88B54D006FEABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A58CC22AAB0FDF00AD5144 /* OrderCartViewModel.swift in Sources */,
+				63C020EF2A89FC42006FEABB /* PrepaidCardViewModel.swift in Sources */,
+				63C020B12A88B7A8006FEABB /* MainTabList.swift in Sources */,
+				63C0214F2A8A119B006FEABB /* PrepaidCardFlowerImage.swift in Sources */,
+				632569EA2B1F15F200E1530E /* PaymentInfoData.swift in Sources */,
+				63A58CB62AA34C7500AD5144 /* OrderMenuDetailView.swift in Sources */,
+				63DB31B02B08C3B000468E39 /* PaymentItem.swift in Sources */,
+				63C0214D2A8A1176006FEABB /* PrepaidCardPatternImage.swift in Sources */,
+				6363F8702B81E8BC00C3CB53 /* MembershipCouponDetailView.swift in Sources */,
+				63BA1ABF2B401D2300271386 /* HomeUserRecommendView.swift in Sources */,
+				6363F86E2B80B61A00C3CB53 /* MembershipStampProfitSelectedPickerView.swift in Sources */,
+				632569EC2B1F26F700E1530E /* PaymentModel.swift in Sources */,
+				63A58CBA2AA5EAAA00AD5144 /* OrderMenuDetailRadio.swift in Sources */,
+				63BA1AC52B53E0C800271386 /* CartDetailCell.swift in Sources */,
+				63C0211C2A8A0159006FEABB /* MembershipStampProfitCell.swift in Sources */,
+				63C020D02A89F209006FEABB /* HomeUserNewsView.swift in Sources */,
+				63C021352A8A0B37006FEABB /* PrepaidCardData.swift in Sources */,
+				63C020E22A89F4A9006FEABB /* PrepaidRefundView.swift in Sources */,
+				63DB31B62B0B4A9300468E39 /* PaymentCoupon.swift in Sources */,
+				63C021372A8A0CFC006FEABB /* ShopData.swift in Sources */,
+				63C021262A8A01DF006FEABB /* MembershipCouponCell.swift in Sources */,
+				63C020A32A88B54D006FEABB /* NavigationTempView.swift in Sources */,
+				63DB31BC2B0B682400468E39 /* PaymentMethod.swift in Sources */,
+				63769A022B63A0AF001235DF /* PlaceData.swift in Sources */,
+				63C020C82A89F181006FEABB /* EventSectionItemView.swift in Sources */,
+				63C021132A8A0090006FEABB /* UserLoginModel.swift in Sources */,
+				63DB31B42B0A0E4800468E39 /* PaymentItemListRadio.swift in Sources */,
+				63C020E62A89F4FD006FEABB /* PrepaidCardCreateView.swift in Sources */,
+				63C021152A8A00E5006FEABB /* MembershipStampView.swift in Sources */,
+				63C021482A8A1096006FEABB /* PrepaidCardImage.swift in Sources */,
+				63D49D922A99F2440066DACE /* OrderMenuCell.swift in Sources */,
+				63E1A6CA2A8F4E280055C3B4 /* MembershipStampModel.swift in Sources */,
+				63A58CB82AA4932A00AD5144 /* OrderMenuDetailOptionView.swift in Sources */,
+				63C020D72A89F417006FEABB /* CrawlModel.swift in Sources */,
+				63C020B72A89E77E006FEABB /* HomeEventView.swift in Sources */,
+				63DB31C02B0CA95600468E39 /* PaymentAmount.swift in Sources */,
+				63C0212D2A8A0ACF006FEABB /* CoffeeData.swift in Sources */,
+				63D49D8E2A9490680066DACE /* MembershipCouponModel.swift in Sources */,
+				63DB31B22B08C65B00468E39 /* PaymentRequest.swift in Sources */,
+				63C0210F2A8A0065006FEABB /* UserLoginView.swift in Sources */,
+				63DB31AC2B0762AF00468E39 /* PaymentView.swift in Sources */,
+				6363F86C2B80B4E700C3CB53 /* MembershipStampCell.swift in Sources */,
+				63C0214B2A8A1160006FEABB /* PrepaidCardBirdImage.swift in Sources */,
+				63C020E92A89F535006FEABB /* PrepaidCardCreateDetailView.swift in Sources */,
+				63AC50D22AE6555F005F80E9 /* OtherView.swift in Sources */,
+				63C020A12A88B54D006FEABB /* CoffeeCofeeApp.swift in Sources */,
+				63C0212B2A8A0A89006FEABB /* NoticeData.swift in Sources */,
+				63C020ED2A89FC17006FEABB /* PrepaidCardChargeView.swift in Sources */,
+				63C021182A8A0120006FEABB /* MembershipStampGrid.swift in Sources */,
+				63BA1AC12B415C0900271386 /* HomeUserPopupOverlay.swift in Sources */,
+				63C020BE2A89EA4B006FEABB /* HomeUserCouponView.swift in Sources */,
+				63C020EB2A89F559006FEABB /* PrepaidCardCreateRadio.swift in Sources */,
+				63C0211A2A8A0140006FEABB /* MembershipStampProfitView.swift in Sources */,
+				63C021232A8A01B3006FEABB /* MembershipCouponView.swift in Sources */,
+				63C020CA2A89F1A5006FEABB /* HomeUserMenuView.swift in Sources */,
+				63C021332A8A0B1F006FEABB /* StampDetailsData.swift in Sources */,
+				63A58CC42AAB14F000AD5144 /* OrderCartCell.swift in Sources */,
+				63ED8D6B2B7DF30E00E2A60E /* OrderMenuSelectedPickerView.swift in Sources */,
+				63C020E42A89F4DD006FEABB /* PrepaidNoticePopupView.swift in Sources */,
+				63C020AF2A88B786006FEABB /* MainTabView.swift in Sources */,
+				63C020DE2A89F471006FEABB /* PrepaidCardListView.swift in Sources */,
+				63DB31A82AF8F4B400468E39 /* CartDetailView.swift in Sources */,
+				63C020C02A89EF3C006FEABB /* HomeUserNoticeView.swift in Sources */,
+				63C021312A8A0B0B006FEABB /* StampData.swift in Sources */,
+				63C020DB2A89F443006FEABB /* PrepaidCardView.swift in Sources */,
+				63C020BC2A89EA33006FEABB /* HomeUserNameView.swift in Sources */,
+				63C020D22A89F222006FEABB /* HomeUserNewsCell.swift in Sources */,
+				63D49D902A973ED30066DACE /* OrderMenuView.swift in Sources */,
+				63DB31AE2B08B18300468E39 /* PaymentItemList.swift in Sources */,
+				63C021392A8A0D0F006FEABB /* UserData.swift in Sources */,
+				63C020C32A89EF62006FEABB /* HomeUserNoticeCell.swift in Sources */,
+				63A58CC02AAB09C600AD5144 /* CartItemData.swift in Sources */,
+				63A58CBE2AA9C26D00AD5144 /* OrderCartView.swift in Sources */,
+				6363F8722B83449500C3CB53 /* OrderMapCoordinator.swift in Sources */,
+				63C021282A8A0A2E006FEABB /* EventModel.swift in Sources */,
+				63769A042B6A4DDD001235DF /* OrderMapView.swift in Sources */,
+				63C020E02A89F493006FEABB /* PrepaidPrecautionsView.swift in Sources */,
+				63DB31B82B0B4B9900468E39 /* PaymentCouponList.swift in Sources */,
+				63C020CD2A89F1D2006FEABB /* HomeUserMenuPopup.swift in Sources */,
+				63DB31BE2B0B72B900468E39 /* PaymentCashreceipt.swift in Sources */,
+				63C020B42A89E687006FEABB /* HomeView.swift in Sources */,
+				63C020D92A89F42E006FEABB /* HomeUserViewModel.swift in Sources */,
+				63C0212F2A8A0AF1006FEABB /* CouponData.swift in Sources */,
+				63C020BA2A89EA1A006FEABB /* HomeUserBarcodePopup.swift in Sources */,
+				63C020F12A89FC5C006FEABB /* OrderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63C020A92A88B54E006FEABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자 위치권한이 필요합니다.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63C020AA2A88B54E006FEABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자 위치권한이 필요합니다.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C020AC2A88B54E006FEABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63ED8D672B7B70FA00E2A60E /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeeCofee/Preview Content\"";
+				DEVELOPMENT_TEAM = UHG3G6GXZP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/a1/Desktop/CoffeeCoffee/CoffeeCofee/CoffeeCofee/ProjectSetup/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자 위치권한이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyCoffee.CoffeeCofee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63C020AD2A88B54E006FEABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63ED8D672B7B70FA00E2A60E /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeeCofee/Preview Content\"";
+				DEVELOPMENT_TEAM = UHG3G6GXZP;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/a1/Desktop/CoffeeCoffee/CoffeeCofee/CoffeeCofee/ProjectSetup/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자 위치권한이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyCoffee.CoffeeCofee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C020982A88B54D006FEABB /* Build configuration list for PBXProject "CoffeeCofee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C020A92A88B54E006FEABB /* Debug */,
+				63C020AA2A88B54E006FEABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C020AB2A88B54E006FEABB /* Build configuration list for PBXNativeTarget "CoffeeCofee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C020AC2A88B54E006FEABB /* Debug */,
+				63C020AD2A88B54E006FEABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6311123E2A8CB6CF00063B77 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		631112432A8CB87E00063B77 /* XCRemoteSwiftPackageReference "RxGesture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxGesture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		637699F52B5E32DA001235DF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		637699FE2B6390DA001235DF /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		63C021532A8A1DB9006FEABB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		63C0215F2A8A1F76006FEABB /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		63C021622A8A1FA4006FEABB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		63C021BA2A8A26C6006FEABB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6311123F2A8CB6CF00063B77 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6311123E2A8CB6CF00063B77 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		631112412A8CB6CF00063B77 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6311123E2A8CB6CF00063B77 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		631112442A8CB87E00063B77 /* RxGesture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 631112432A8CB87E00063B77 /* XCRemoteSwiftPackageReference "RxGesture" */;
+			productName = RxGesture;
+		};
+		6363F8692B809A1B00C3CB53 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C021BA2A8A26C6006FEABB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		637699F62B5E32DB001235DF /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637699F52B5E32DA001235DF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		637699F82B5E32DB001235DF /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637699F52B5E32DA001235DF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		637699FA2B5E32DB001235DF /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637699F52B5E32DA001235DF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		637699FC2B5E32DB001235DF /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637699F52B5E32DA001235DF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
+		};
+		637699FF2B6390DA001235DF /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637699FE2B6390DA001235DF /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		63C021542A8A1DB9006FEABB /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C021532A8A1DB9006FEABB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		63C021562A8A1DB9006FEABB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C021532A8A1DB9006FEABB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		63C021582A8A1DB9006FEABB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C021532A8A1DB9006FEABB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		63C021602A8A1F76006FEABB /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C0215F2A8A1F76006FEABB /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		63C021632A8A1FA4006FEABB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C021622A8A1FA4006FEABB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63C020952A88B54D006FEABB /* Project object */;
+}
